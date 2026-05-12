@@ -2,7 +2,7 @@
 
 A reproducible benchmarking harness for running and comparing multiple Visual SLAM and Monocular Depth Estimation systems on TUM-format RGB-D datasets.
 
-**Status:** alpha — actively developed, interfaces may change. See [Roadmap](#roadmap) for what's stable vs. WIP.
+**Status:** alpha — actively developed, interfaces may change. See [Roadmap](#roadmap) for what's done and TBD.
 
 ---
 
@@ -134,14 +134,6 @@ Metrics (ATE, RPE) are computed via the [evo](https://github.com/MichaelGrupp/ev
 - A new SLAM algorithm — this is infrastructure, not research
 - Real-time inference — this is offline benchmarking
 
-## Contributing
-
-PRs welcome, especially:
-- Adapters for additional SLAM systems
-- Fixes for build issues on different OS / library versions
-- Reproducibility improvements
-
-Open an issue first if it's a larger change.
 
 ## License
 
