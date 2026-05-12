@@ -1,4 +1,6 @@
 # SLAM source/builds — users clone these themselves following docs/slam-systems/
+# Both patterns: `external` catches symlinks, `external/` catches the directory
+external
 external/
 
 # Benchmark outputs
