@@ -1,0 +1,37 @@
+# SLAM source/builds — users clone these themselves following docs/slam-systems/
+external/
+
+# Benchmark outputs
+results/
+5_results/
+*.log
+run_log_*.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*~
+
+# Local config overrides
+.env
+.env.local
+config.local.yaml
+
+# Backup / scratch
+*.bak
+*.orig
+scratch/
